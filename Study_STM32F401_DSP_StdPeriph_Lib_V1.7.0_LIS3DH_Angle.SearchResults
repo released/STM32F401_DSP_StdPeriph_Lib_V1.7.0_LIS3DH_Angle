@@ -1,0 +1,17 @@
+---- I2C_SoftwareResetCmd Matches (16 in 8 files) ----
+stm324x9i_eval_audio_codec.c (Utilities\STM32_EVAL\STM324x9I_EVAL):  I2C_SoftwareResetCmd(CODEC_I2C, ENABLE);
+stm324x9i_eval_audio_codec.c (Utilities\STM32_EVAL\STM324x9I_EVAL):  I2C_SoftwareResetCmd(CODEC_I2C, DISABLE);
+stm324x9i_eval_ioe16.c (Utilities\STM32_EVAL\STM324x9I_EVAL):  I2C_SoftwareResetCmd(IOE16_I2C, ENABLE);
+stm324x9i_eval_ioe16.c (Utilities\STM32_EVAL\STM324x9I_EVAL):  I2C_SoftwareResetCmd(IOE16_I2C, DISABLE);
+stm324x9i_eval_ioe8.c (Utilities\STM32_EVAL\STM324x9I_EVAL):  I2C_SoftwareResetCmd(IOE_I2C, ENABLE);
+stm324x9i_eval_ioe8.c (Utilities\STM32_EVAL\STM324x9I_EVAL):  I2C_SoftwareResetCmd(IOE_I2C, DISABLE);
+stm324x9i_eval_lcd.c (Utilities\STM32_EVAL\STM324x9I_EVAL):  I2C_SoftwareResetCmd(LCD_I2C, ENABLE);
+stm324x9i_eval_lcd.c (Utilities\STM32_EVAL\STM324x9I_EVAL):  I2C_SoftwareResetCmd(LCD_I2C, DISABLE);
+stm324xg_eval_audio_codec.c (Utilities\STM32_EVAL\STM3240_41_G_EVAL):  I2C_SoftwareResetCmd(CODEC_I2C, ENABLE);
+stm324xg_eval_audio_codec.c (Utilities\STM32_EVAL\STM3240_41_G_EVAL):  I2C_SoftwareResetCmd(CODEC_I2C, DISABLE);
+stm324xg_eval_ioe.c (Utilities\STM32_EVAL\STM3240_41_G_EVAL):  I2C_SoftwareResetCmd(IOE_I2C, ENABLE);
+stm324xg_eval_ioe.c (Utilities\STM32_EVAL\STM3240_41_G_EVAL):  I2C_SoftwareResetCmd(IOE_I2C, DISABLE);
+stm32f4xx_i2c.c (Libraries\STM32F4xx_StdPeriph_Driver\src):void I2C_SoftwareResetCmd(I2C_TypeDef* I2Cx, FunctionalState NewState)
+stm32f4xx_i2c.c (Libraries\STM32F4xx_StdPeriph_Driver\src):        (+@@) I2C_ClearFlag() or I2C_ClearITPendingBit() and/or I2C_SoftwareResetCmd() 
+stm32f4xx_i2c.h (Libraries\STM32F4xx_StdPeriph_Driver\inc):void I2C_SoftwareResetCmd(I2C_TypeDef* I2Cx, FunctionalState NewState);
+stm32f4xx_i2c.h (Libraries\STM32F4xx_StdPeriph_Driver\inc):           - I2C_ClearFlag() or I2C_ClearITPendingBit() and/or I2C_SoftwareResetCmd() 
